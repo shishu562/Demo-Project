@@ -1,10 +1,11 @@
+package Java_Program;
 import java.util.Scanner;
 
 class Rect {// class name should be noun
     int l;
     int b;
 
-    void getData() {
+    void getData(){
         Scanner sk = new Scanner(System.in);
         System.out.println("Enter Length : ");
         l = sk.nextInt();
